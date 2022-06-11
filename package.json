@@ -1,0 +1,23 @@
+{
+  "name": "typescript-learing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g218suna/TypeScript-Learing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g218suna/TypeScript-Learing/issues"
+  },
+  "homepage": "https://github.com/g218suna/TypeScript-Learing#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-generator": "^4.16.1"
+  }
+}
