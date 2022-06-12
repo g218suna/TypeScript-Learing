@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,8 +18,19 @@ function App() {
         >
           Learn React
         </a>
+        <LikeButton />
       </header>
     </div>
+  );
+}
+
+function LikeButton() {
+  const [count, setCount] = useState(999);
+  const handleClick = () => {
+    setCount(count + 1);
+  };
+  return (
+    <span className="likeButton" onClick={handleClick}>♥ {count}</span>
   );
 }
 
